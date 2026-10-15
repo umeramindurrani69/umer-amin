@@ -1,14 +1,6 @@
 'use client';
 import {useState} from 'react';
-export const services=[
- {icon:'⌂',name:'Real-estate agents',detail:'Property enquiries, lead qualification, viewing requests and agent handoffs.'},
- {icon:'◉',name:'Calling agents',detail:'Appointment requests, enquiry triage and follow-up workflows.'},
- {icon:'▤',name:'Office agents',detail:'Document assistance, internal knowledge and task coordination.'},
- {icon:'✦',name:'Virtual assistants',detail:'Customer enquiries, knowledge lookup and human escalation.'},
- {icon:'↗',name:'Lead-generation tools',detail:'Lead capture, qualification, CRM updates and outreach preparation.'},
- {icon:'☏',name:'Messaging agents',detail:'Website and messaging conversations connected to your workflow.'},
- {icon:'⌘',name:'Custom automation',detail:'Connect your tools and remove repetitive operational work.'}
-];
+import {agentServices as services} from '@/lib/agent-services';
 const questions=['What does your business do, and what should this agent help you achieve?','Which tools or channels should it work with? What should a human approve?','What timeline and budget range do you have in mind? “Not sure yet” is fine.'];
 export default function AgentStudio({aiReady=false}:{aiReady?:boolean}){
  const [service,setService]=useState('');const [answers,setAnswers]=useState<string[]>([]);const [input,setInput]=useState('');const [brief,setBrief]=useState('');const [advice,setAdvice]=useState('');const [busy,setBusy]=useState(false);const [status,setStatus]=useState('');const [approved,setApproved]=useState(false);

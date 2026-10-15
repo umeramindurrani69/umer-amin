@@ -1,0 +1,909 @@
+{
+  "checkedAt": "2026-10-15T14:22:10.204Z",
+  "previewOrigin": "http://localhost:3001",
+  "pages": 100,
+  "failures": [],
+  "duplicateTitles": [],
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "title": "Umer Amin Durrani | AI Agents &amp; Technical Project Manager",
+      "descriptionLength": 159,
+      "canonical": "http://localhost:3000",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/projects",
+      "status": 200,
+      "title": "AI &amp; Technical Project Portfolio | Umer Amin Durrani",
+      "descriptionLength": 131,
+      "canonical": "http://localhost:3000/projects",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/capabilities",
+      "status": 200,
+      "title": "AI, Linux, DevOps &amp; Research Capabilities | Umer Amin Durrani",
+      "descriptionLength": 142,
+      "canonical": "http://localhost:3000/capabilities",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies",
+      "status": 200,
+      "title": "AI, DevOps &amp; Project Management Case Studies | Umer Amin Durrani",
+      "descriptionLength": 148,
+      "canonical": "http://localhost:3000/case-studies",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/research",
+      "status": 200,
+      "title": "Secret Research | AI, Security &amp; Algorithms | Umer Amin Durrani",
+      "descriptionLength": 157,
+      "canonical": "http://localhost:3000/research",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "title": "About Umer Amin Durrani | Technical PM &amp; Researcher | Umer Amin Durrani",
+      "descriptionLength": 160,
+      "canonical": "http://localhost:3000/about",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "title": "Contact for AI Agents &amp; Technical Projects | Umer Amin Durrani",
+      "descriptionLength": 161,
+      "canonical": "http://localhost:3000/contact",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/services",
+      "status": 200,
+      "title": "AI Agent Development &amp; Automation Services | Umer Amin Durrani",
+      "descriptionLength": 136,
+      "canonical": "http://localhost:3000/services",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/services/real-estate-ai-agents",
+      "status": 200,
+      "title": "Real Estate AI Chatbots &amp; Agents | Umer Amin Durrani",
+      "descriptionLength": 139,
+      "canonical": "http://localhost:3000/services/real-estate-ai-agents",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/services/ai-calling-agents",
+      "status": 200,
+      "title": "AI Calling Agent Development | Umer Amin Durrani",
+      "descriptionLength": 124,
+      "canonical": "http://localhost:3000/services/ai-calling-agents",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/services/office-ai-agents",
+      "status": 200,
+      "title": "Office AI Agents &amp; Knowledge Assistants | Umer Amin Durrani",
+      "descriptionLength": 125,
+      "canonical": "http://localhost:3000/services/office-ai-agents",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/services/virtual-ai-assistants",
+      "status": 200,
+      "title": "Virtual AI Assistants for Business | Umer Amin Durrani",
+      "descriptionLength": 121,
+      "canonical": "http://localhost:3000/services/virtual-ai-assistants",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/services/ai-lead-generation",
+      "status": 200,
+      "title": "AI Lead Qualification &amp; CRM Automation | Umer Amin Durrani",
+      "descriptionLength": 129,
+      "canonical": "http://localhost:3000/services/ai-lead-generation",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/services/messaging-chatbots",
+      "status": 200,
+      "title": "Website &amp; Messaging Chatbot Development | Umer Amin Durrani",
+      "descriptionLength": 126,
+      "canonical": "http://localhost:3000/services/messaging-chatbots",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/services/workflow-automation",
+      "status": 200,
+      "title": "Custom AI Workflow Automation | Umer Amin Durrani",
+      "descriptionLength": 121,
+      "canonical": "http://localhost:3000/services/workflow-automation",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/topics/devops-linux",
+      "status": 200,
+      "title": "DevOps &amp; Linux | Umer Amin Durrani",
+      "descriptionLength": 87,
+      "canonical": "http://localhost:3000/topics/devops-linux",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/topics/devsecops-security",
+      "status": 200,
+      "title": "DevSecOps &amp; Security | Umer Amin Durrani",
+      "descriptionLength": 83,
+      "canonical": "http://localhost:3000/topics/devsecops-security",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/topics/ai-mlops",
+      "status": 200,
+      "title": "AI Systems &amp; MLOps | Umer Amin Durrani",
+      "descriptionLength": 78,
+      "canonical": "http://localhost:3000/topics/ai-mlops",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/topics/claude-gpt",
+      "status": 200,
+      "title": "Claude &amp; GPT Workflows | Umer Amin Durrani",
+      "descriptionLength": 73,
+      "canonical": "http://localhost:3000/topics/claude-gpt",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/topics/technical-pm",
+      "status": 200,
+      "title": "Technical PM &amp; Delivery | Umer Amin Durrani",
+      "descriptionLength": 82,
+      "canonical": "http://localhost:3000/topics/technical-pm",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/topics/data-market-search",
+      "status": 200,
+      "title": "Data, Market &amp; Search | Umer Amin Durrani",
+      "descriptionLength": 79,
+      "canonical": "http://localhost:3000/topics/data-market-search",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/topics/secret-research",
+      "status": 200,
+      "title": "Secret Research | Umer Amin Durrani",
+      "descriptionLength": 88,
+      "canonical": "http://localhost:3000/topics/secret-research",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/compliance-as-data",
+      "status": 200,
+      "title": "Why compliance belongs in data | Umer Amin Durrani",
+      "descriptionLength": 93,
+      "canonical": "http://localhost:3000/case-studies/compliance-as-data",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/multi-tenant-decision",
+      "status": 200,
+      "title": "The multi-tenant decision | Umer Amin Durrani",
+      "descriptionLength": 82,
+      "canonical": "http://localhost:3000/case-studies/multi-tenant-decision",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/research/strange-faces-serious-questions",
+      "status": 200,
+      "title": "Strange faces. Questions worth your time. | Umer Amin Durrani",
+      "descriptionLength": 73,
+      "canonical": "http://localhost:3000/research/strange-faces-serious-questions",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/gitops-configuration-drift",
+      "status": 200,
+      "title": "Does GitOps Reduce Configuration Drift? | Umer Amin Durrani",
+      "descriptionLength": 118,
+      "canonical": "http://localhost:3000/case-studies/gitops-configuration-drift",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/kubernetes-ai-autoscaling",
+      "status": 200,
+      "title": "Kubernetes Autoscaling Under Bursty AI Workloads | Umer Amin Durrani",
+      "descriptionLength": 128,
+      "canonical": "http://localhost:3000/case-studies/kubernetes-ai-autoscaling",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/database-migration-rollback",
+      "status": 200,
+      "title": "Database Migration Rollback: When the Previous Release Cannot Return | Umer Amin Durrani",
+      "descriptionLength": 148,
+      "canonical": "http://localhost:3000/case-studies/database-migration-rollback",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/platform-engineering-developer-experience",
+      "status": 200,
+      "title": "Platform Engineering: Faster Delivery or Another Bottleneck? | Umer Amin Durrani",
+      "descriptionLength": 139,
+      "canonical": "http://localhost:3000/case-studies/platform-engineering-developer-experience",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/observability-cost-optimisation",
+      "status": 200,
+      "title": "Observability Cost Versus Diagnostic Value | Umer Amin Durrani",
+      "descriptionLength": 122,
+      "canonical": "http://localhost:3000/case-studies/observability-cost-optimisation",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/linux-server-hardening",
+      "status": 200,
+      "title": "Linux Hardening Versus Operational Friction | Umer Amin Durrani",
+      "descriptionLength": 123,
+      "canonical": "http://localhost:3000/case-studies/linux-server-hardening",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/kubernetes-vs-virtual-machines",
+      "status": 200,
+      "title": "When Kubernetes Is the Wrong Architecture | Umer Amin Durrani",
+      "descriptionLength": 121,
+      "canonical": "http://localhost:3000/case-studies/kubernetes-vs-virtual-machines",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/ci-pipeline-optimisation",
+      "status": 200,
+      "title": "CI Pipeline Speed Versus Defect Detection | Umer Amin Durrani",
+      "descriptionLength": 121,
+      "canonical": "http://localhost:3000/case-studies/ci-pipeline-optimisation",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/chaos-engineering-small-teams",
+      "status": 200,
+      "title": "Chaos Engineering for Small Teams | Umer Amin Durrani",
+      "descriptionLength": 113,
+      "canonical": "http://localhost:3000/case-studies/chaos-engineering-small-teams",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/dora-metrics-limitations",
+      "status": 200,
+      "title": "What DORA Metrics Miss About Delivery | Umer Amin Durrani",
+      "descriptionLength": 117,
+      "canonical": "http://localhost:3000/case-studies/dora-metrics-limitations",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/sbom-vulnerability-management",
+      "status": 200,
+      "title": "Does an SBOM Make Remediation Faster? | Umer Amin Durrani",
+      "descriptionLength": 116,
+      "canonical": "http://localhost:3000/case-studies/sbom-vulnerability-management",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/software-provenance-security",
+      "status": 200,
+      "title": "Signed Builds, Untrusted Inputs | Umer Amin Durrani",
+      "descriptionLength": 111,
+      "canonical": "http://localhost:3000/case-studies/software-provenance-security",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/cicd-secret-scanning",
+      "status": 200,
+      "title": "Secret Scanning and Exposure Duration | Umer Amin Durrani",
+      "descriptionLength": 117,
+      "canonical": "http://localhost:3000/case-studies/cicd-secret-scanning",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/github-actions-least-privilege",
+      "status": 200,
+      "title": "Least Privilege for GitHub Actions Deployments | Umer Amin Durrani",
+      "descriptionLength": 126,
+      "canonical": "http://localhost:3000/case-studies/github-actions-least-privilege",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/soc-alert-fatigue",
+      "status": 200,
+      "title": "SOC Alert Fatigue: Signal Quality Before Alert Volume | Umer Amin Durrani",
+      "descriptionLength": 133,
+      "canonical": "http://localhost:3000/case-studies/soc-alert-fatigue",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/devsecops-security-gates",
+      "status": 200,
+      "title": "When Security Gates Encourage Unsafe Workarounds | Umer Amin Durrani",
+      "descriptionLength": 128,
+      "canonical": "http://localhost:3000/case-studies/devsecops-security-gates",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/multi-tenant-data-isolation",
+      "status": 200,
+      "title": "Multi-Tenant Data Isolation Beyond Login | Umer Amin Durrani",
+      "descriptionLength": 120,
+      "canonical": "http://localhost:3000/case-studies/multi-tenant-data-isolation",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/ai-agent-identity-security",
+      "status": 200,
+      "title": "Identity Boundaries for AI Agents | Umer Amin Durrani",
+      "descriptionLength": 113,
+      "canonical": "http://localhost:3000/case-studies/ai-agent-identity-security",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/django-ai-application-security",
+      "status": 200,
+      "title": "Threat Modelling a Django AI Application | Umer Amin Durrani",
+      "descriptionLength": 120,
+      "canonical": "http://localhost:3000/case-studies/django-ai-application-security",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/incident-response-tabletop-exercise",
+      "status": 200,
+      "title": "Incident Readiness Versus Policy Readiness | Umer Amin Durrani",
+      "descriptionLength": 122,
+      "canonical": "http://localhost:3000/case-studies/incident-response-tabletop-exercise",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/ai-citation-accuracy",
+      "status": 200,
+      "title": "AI Citation Accuracy: Confident Answers, Incorrect Evidence | Umer Amin Durrani",
+      "descriptionLength": 139,
+      "canonical": "http://localhost:3000/case-studies/ai-citation-accuracy",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/rag-vs-long-context",
+      "status": 200,
+      "title": "RAG Versus Long Context: A Controlled Comparison | Umer Amin Durrani",
+      "descriptionLength": 128,
+      "canonical": "http://localhost:3000/case-studies/rag-vs-long-context",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/ai-agent-reliability",
+      "status": 200,
+      "title": "Why AI Agents Fail on Long Workflows | Umer Amin Durrani",
+      "descriptionLength": 116,
+      "canonical": "http://localhost:3000/case-studies/ai-agent-reliability",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/human-in-the-loop-ai-agents",
+      "status": 200,
+      "title": "Human Approval Policies for AI Agents | Umer Amin Durrani",
+      "descriptionLength": 117,
+      "canonical": "http://localhost:3000/case-studies/human-in-the-loop-ai-agents",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/ai-agent-memory-evaluation",
+      "status": 200,
+      "title": "AI Agent Memory: Learning or Repeating Mistakes? | Umer Amin Durrani",
+      "descriptionLength": 127,
+      "canonical": "http://localhost:3000/case-studies/ai-agent-memory-evaluation",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/llm-drift-monitoring",
+      "status": 200,
+      "title": "LLM Drift Versus Changing Workloads | Umer Amin Durrani",
+      "descriptionLength": 115,
+      "canonical": "http://localhost:3000/case-studies/llm-drift-monitoring",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/llm-model-routing",
+      "status": 200,
+      "title": "Small Models, Large Models and Routing Policies | Umer Amin Durrani",
+      "descriptionLength": 127,
+      "canonical": "http://localhost:3000/case-studies/llm-model-routing",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/structured-output-evaluation",
+      "status": 200,
+      "title": "Structured Output Does Not Prove Correctness | Umer Amin Durrani",
+      "descriptionLength": 124,
+      "canonical": "http://localhost:3000/case-studies/structured-output-evaluation",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/llm-observability-privacy",
+      "status": 200,
+      "title": "LLM Observability Without Sensitive Logging | Umer Amin Durrani",
+      "descriptionLength": 123,
+      "canonical": "http://localhost:3000/case-studies/llm-observability-privacy",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/ai-automation-total-cost",
+      "status": 200,
+      "title": "The Total Cost of Successful AI Automation | Umer Amin Durrani",
+      "descriptionLength": 122,
+      "canonical": "http://localhost:3000/case-studies/ai-automation-total-cost",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/claude-vs-gpt-requirements-analysis",
+      "status": 200,
+      "title": "Claude Versus GPT for Ambiguous Requirements | Umer Amin Durrani",
+      "descriptionLength": 124,
+      "canonical": "http://localhost:3000/case-studies/claude-vs-gpt-requirements-analysis",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/claude-vs-gpt-linux-troubleshooting",
+      "status": 200,
+      "title": "Claude Versus GPT for Linux Troubleshooting | Umer Amin Durrani",
+      "descriptionLength": 123,
+      "canonical": "http://localhost:3000/case-studies/claude-vs-gpt-linux-troubleshooting",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/context-engineering-vs-prompt-engineering",
+      "status": 200,
+      "title": "Context Engineering Versus Prompt Rewriting | Umer Amin Durrani",
+      "descriptionLength": 123,
+      "canonical": "http://localhost:3000/case-studies/context-engineering-vs-prompt-engineering",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/ai-deployment-risk-assessment",
+      "status": 200,
+      "title": "Can Claude and GPT Detect Unsafe Deployment Plans? | Umer Amin Durrani",
+      "descriptionLength": 129,
+      "canonical": "http://localhost:3000/case-studies/ai-deployment-risk-assessment",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/ai-coding-agent-evaluation",
+      "status": 200,
+      "title": "When Coding Agents Pass Tests but Miss Requirements | Umer Amin Durrani",
+      "descriptionLength": 131,
+      "canonical": "http://localhost:3000/case-studies/ai-coding-agent-evaluation",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/claude-vs-gpt-research-accuracy",
+      "status": 200,
+      "title": "Claude Versus GPT for Research Source Fidelity | Umer Amin Durrani",
+      "descriptionLength": 126,
+      "canonical": "http://localhost:3000/case-studies/claude-vs-gpt-research-accuracy",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/reasoning-model-cost-effectiveness",
+      "status": 200,
+      "title": "Reasoning Budget and Cost-Adjusted Task Success | Umer Amin Durrani",
+      "descriptionLength": 127,
+      "canonical": "http://localhost:3000/case-studies/reasoning-model-cost-effectiveness",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/llm-prompt-caching-benchmark",
+      "status": 200,
+      "title": "Prompt Caching Under Changing Context | Umer Amin Durrani",
+      "descriptionLength": 117,
+      "canonical": "http://localhost:3000/case-studies/llm-prompt-caching-benchmark",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/single-agent-vs-multi-agent",
+      "status": 200,
+      "title": "Single-Agent Versus Multi-Agent Workflows | Umer Amin Durrani",
+      "descriptionLength": 121,
+      "canonical": "http://localhost:3000/case-studies/single-agent-vs-multi-agent",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/ai-agent-tool-design",
+      "status": 200,
+      "title": "Tool Descriptions and Agent Failure Rates | Umer Amin Durrani",
+      "descriptionLength": 121,
+      "canonical": "http://localhost:3000/case-studies/ai-agent-tool-design",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/ai-software-delivery-productivity",
+      "status": 200,
+      "title": "AI Coding Speed and the Delivery Bottleneck | Umer Amin Durrani",
+      "descriptionLength": 123,
+      "canonical": "http://localhost:3000/case-studies/ai-software-delivery-productivity",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/agile-sprint-forecasting",
+      "status": 200,
+      "title": "Sprint Forecasting Under Uncertain Requirements | Umer Amin Durrani",
+      "descriptionLength": 127,
+      "canonical": "http://localhost:3000/case-studies/agile-sprint-forecasting",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/scope-creep-dependency-management",
+      "status": 200,
+      "title": "The Dependency Cost of a Small Feature | Umer Amin Durrani",
+      "descriptionLength": 118,
+      "canonical": "http://localhost:3000/case-studies/scope-creep-dependency-management",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/project-risk-register-effectiveness",
+      "status": 200,
+      "title": "Why Risk Registers Miss Incidents | Umer Amin Durrani",
+      "descriptionLength": 113,
+      "canonical": "http://localhost:3000/case-studies/project-risk-register-effectiveness",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/ai-build-vs-buy",
+      "status": 200,
+      "title": "AI Build Versus Buy with Maintenance Included | Umer Amin Durrani",
+      "descriptionLength": 125,
+      "canonical": "http://localhost:3000/case-studies/ai-build-vs-buy",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/ai-prd-evaluation",
+      "status": 200,
+      "title": "Can AI Improve a Product Requirements Document? | Umer Amin Durrani",
+      "descriptionLength": 126,
+      "canonical": "http://localhost:3000/case-studies/ai-prd-evaluation",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/architecture-decision-records-benefits",
+      "status": 200,
+      "title": "Decision Logs and Institutional Memory | Umer Amin Durrani",
+      "descriptionLength": 118,
+      "canonical": "http://localhost:3000/case-studies/architecture-decision-records-benefits",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/remote-team-delivery-metrics",
+      "status": 200,
+      "title": "Remote Team Delivery Without Surveillance | Umer Amin Durrani",
+      "descriptionLength": 121,
+      "canonical": "http://localhost:3000/case-studies/remote-team-delivery-metrics",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/ai-pilot-to-production",
+      "status": 200,
+      "title": "Why AI Pilots Fail to Reach Production | Umer Amin Durrani",
+      "descriptionLength": 118,
+      "canonical": "http://localhost:3000/case-studies/ai-pilot-to-production",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/agile-transformation-case-study",
+      "status": 200,
+      "title": "Agile Transformation Without Assuming the Answer | Umer Amin Durrani",
+      "descriptionLength": 128,
+      "canonical": "http://localhost:3000/case-studies/agile-transformation-case-study",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/dashboard-decision-bias",
+      "status": 200,
+      "title": "Accurate Dashboards and Misleading Decisions | Umer Amin Durrani",
+      "descriptionLength": 124,
+      "canonical": "http://localhost:3000/case-studies/dashboard-decision-bias",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/ai-market-research-accuracy",
+      "status": 200,
+      "title": "AI Market Research and Repeated Claims | Umer Amin Durrani",
+      "descriptionLength": 118,
+      "canonical": "http://localhost:3000/case-studies/ai-market-research-accuracy",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/ai-brand-voice-consistency",
+      "status": 200,
+      "title": "Brand Voice Consistency in AI-Assisted Content | Umer Amin Durrani",
+      "descriptionLength": 126,
+      "canonical": "http://localhost:3000/case-studies/ai-brand-voice-consistency",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/technical-content-credibility",
+      "status": 200,
+      "title": "Attention Versus Trust in Technical Content | Umer Amin Durrani",
+      "descriptionLength": 123,
+      "canonical": "http://localhost:3000/case-studies/technical-content-credibility",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/linkedin-content-format-experiment",
+      "status": 200,
+      "title": "LinkedIn Format Versus Message: A Controlled Plan | Umer Amin Durrani",
+      "descriptionLength": 129,
+      "canonical": "http://localhost:3000/case-studies/linkedin-content-format-experiment",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/answer-first-content-research",
+      "status": 200,
+      "title": "Answer-First Writing and Research Nuance | Umer Amin Durrani",
+      "descriptionLength": 120,
+      "canonical": "http://localhost:3000/case-studies/answer-first-content-research",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/ai-search-citation-accuracy",
+      "status": 200,
+      "title": "AI Search Citations That Misrepresent the Source | Umer Amin Durrani",
+      "descriptionLength": 128,
+      "canonical": "http://localhost:3000/case-studies/ai-search-citation-accuracy",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/search-intent-market-research",
+      "status": 200,
+      "title": "Search Demand Versus Market Demand | Umer Amin Durrani",
+      "descriptionLength": 114,
+      "canonical": "http://localhost:3000/case-studies/search-intent-market-research",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/ai-benchmark-reproducibility",
+      "status": 200,
+      "title": "AI Benchmark Reproducibility | Umer Amin Durrani",
+      "descriptionLength": 108,
+      "canonical": "http://localhost:3000/case-studies/ai-benchmark-reproducibility",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/case-studies/negative-results-ai-research",
+      "status": 200,
+      "title": "Publishing Negative Results in AI Research | Umer Amin Durrani",
+      "descriptionLength": 122,
+      "canonical": "http://localhost:3000/case-studies/negative-results-ai-research",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/research/ai-agent-permission-creep",
+      "status": 200,
+      "title": "Permission Creep Across AI Agent Workflows | Umer Amin Durrani",
+      "descriptionLength": 122,
+      "canonical": "http://localhost:3000/research/ai-agent-permission-creep",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/research/ai-memory-deletion-research",
+      "status": 200,
+      "title": "The Ghost of a Deleted AI Memory | Umer Amin Durrani",
+      "descriptionLength": 112,
+      "canonical": "http://localhost:3000/research/ai-memory-deletion-research",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/research/citation-laundering-ai-research",
+      "status": 200,
+      "title": "Citation Laundering in AI Research | Umer Amin Durrani",
+      "descriptionLength": 114,
+      "canonical": "http://localhost:3000/research/citation-laundering-ai-research",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/research/ai-evaluation-awareness",
+      "status": 200,
+      "title": "Evaluation Cues and AI Agent Behaviour | Umer Amin Durrani",
+      "descriptionLength": 118,
+      "canonical": "http://localhost:3000/research/ai-evaluation-awareness",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/research/multi-agent-false-consensus",
+      "status": 200,
+      "title": "False Consensus in Multi-Agent Research | Umer Amin Durrani",
+      "descriptionLength": 119,
+      "canonical": "http://localhost:3000/research/multi-agent-false-consensus",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/research/agent-recovery-security-controls",
+      "status": 200,
+      "title": "Security Controls in the Recovery Path | Umer Amin Durrani",
+      "descriptionLength": 118,
+      "canonical": "http://localhost:3000/research/agent-recovery-security-controls",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/research/ai-requirements-semantic-drift",
+      "status": 200,
+      "title": "Semantic Drift in AI-Generated Requirements | Umer Amin Durrani",
+      "descriptionLength": 123,
+      "canonical": "http://localhost:3000/research/ai-requirements-semantic-drift",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/research/security-compliance-evidence",
+      "status": 200,
+      "title": "Security Compliance Theatre | Umer Amin Durrani",
+      "descriptionLength": 107,
+      "canonical": "http://localhost:3000/research/security-compliance-evidence",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/research/organisational-ai-memory-integrity",
+      "status": 200,
+      "title": "Organisational Memory Poisoning | Umer Amin Durrani",
+      "descriptionLength": 111,
+      "canonical": "http://localhost:3000/research/organisational-ai-memory-integrity",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/research/social-algorithm-research-methods",
+      "status": 200,
+      "title": "Algorithm Folklore Versus Platform Observations | Umer Amin Durrani",
+      "descriptionLength": 127,
+      "canonical": "http://localhost:3000/research/social-algorithm-research-methods",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/research/synthetic-market-research-validity",
+      "status": 200,
+      "title": "Synthetic Consensus in Market Research | Umer Amin Durrani",
+      "descriptionLength": 118,
+      "canonical": "http://localhost:3000/research/synthetic-market-research-validity",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/research/ai-brand-identity-drift",
+      "status": 200,
+      "title": "Brand Identity Drift Through AI Workflows | Umer Amin Durrani",
+      "descriptionLength": 121,
+      "canonical": "http://localhost:3000/research/ai-brand-identity-drift",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/research/ai-agent-observability-gaps",
+      "status": 200,
+      "title": "Observability Blind Spots in AI Actions | Umer Amin Durrani",
+      "descriptionLength": 119,
+      "canonical": "http://localhost:3000/research/ai-agent-observability-gaps",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/research/prompt-maintenance-debt",
+      "status": 200,
+      "title": "The Maintenance Debt of Prompts | Umer Amin Durrani",
+      "descriptionLength": 111,
+      "canonical": "http://localhost:3000/research/prompt-maintenance-debt",
+      "h1": 1,
+      "schemaValid": true
+    },
+    {
+      "path": "/research/ai-agent-business-outcome-evaluation",
+      "status": 200,
+      "title": "Task Success Versus Business Failure | Umer Amin Durrani",
+      "descriptionLength": 116,
+      "canonical": "http://localhost:3000/research/ai-agent-business-outcome-evaluation",
+      "h1": 1,
+      "schemaValid": true
+    }
+  ]
+}
