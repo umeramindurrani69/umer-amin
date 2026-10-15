@@ -1,0 +1,602 @@
+[
+  {
+    "slug": "gitops-configuration-drift",
+    "title": "Does GitOps Reduce Configuration Drift?",
+    "keyword": "gitops configuration drift",
+    "path": "/case-studies/gitops-configuration-drift",
+    "description": "Does GitOps Reduce Configuration Drift: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "kubernetes-ai-autoscaling",
+    "title": "Kubernetes Autoscaling Under Bursty AI Workloads",
+    "keyword": "kubernetes ai autoscaling",
+    "path": "/case-studies/kubernetes-ai-autoscaling",
+    "description": "Kubernetes Autoscaling Under Bursty AI Workloads: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "database-migration-rollback",
+    "title": "Database Migration Rollback: When the Previous Release Cannot Return",
+    "keyword": "database migration rollback",
+    "path": "/case-studies/database-migration-rollback",
+    "description": "Database Migration Rollback: When the Previous Release Cannot Return: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "platform-engineering-developer-experience",
+    "title": "Platform Engineering: Faster Delivery or Another Bottleneck?",
+    "keyword": "platform engineering developer experience",
+    "path": "/case-studies/platform-engineering-developer-experience",
+    "description": "Platform Engineering: Faster Delivery or Another Bottleneck: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "observability-cost-optimisation",
+    "title": "Observability Cost Versus Diagnostic Value",
+    "keyword": "observability cost optimisation",
+    "path": "/case-studies/observability-cost-optimisation",
+    "description": "Observability Cost Versus Diagnostic Value: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "linux-server-hardening",
+    "title": "Linux Hardening Versus Operational Friction",
+    "keyword": "linux server hardening",
+    "path": "/case-studies/linux-server-hardening",
+    "description": "Linux Hardening Versus Operational Friction: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "kubernetes-vs-virtual-machines",
+    "title": "When Kubernetes Is the Wrong Architecture",
+    "keyword": "kubernetes vs virtual machines",
+    "path": "/case-studies/kubernetes-vs-virtual-machines",
+    "description": "When Kubernetes Is the Wrong Architecture: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ci-pipeline-optimisation",
+    "title": "CI Pipeline Speed Versus Defect Detection",
+    "keyword": "ci pipeline optimisation",
+    "path": "/case-studies/ci-pipeline-optimisation",
+    "description": "CI Pipeline Speed Versus Defect Detection: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "chaos-engineering-small-teams",
+    "title": "Chaos Engineering for Small Teams",
+    "keyword": "chaos engineering small teams",
+    "path": "/case-studies/chaos-engineering-small-teams",
+    "description": "Chaos Engineering for Small Teams: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "dora-metrics-limitations",
+    "title": "What DORA Metrics Miss About Delivery",
+    "keyword": "dora metrics limitations",
+    "path": "/case-studies/dora-metrics-limitations",
+    "description": "What DORA Metrics Miss About Delivery: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "sbom-vulnerability-management",
+    "title": "Does an SBOM Make Remediation Faster?",
+    "keyword": "sbom vulnerability management",
+    "path": "/case-studies/sbom-vulnerability-management",
+    "description": "Does an SBOM Make Remediation Faster: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "software-provenance-security",
+    "title": "Signed Builds, Untrusted Inputs",
+    "keyword": "software provenance security",
+    "path": "/case-studies/software-provenance-security",
+    "description": "Signed Builds, Untrusted Inputs: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "cicd-secret-scanning",
+    "title": "Secret Scanning and Exposure Duration",
+    "keyword": "cicd secret scanning",
+    "path": "/case-studies/cicd-secret-scanning",
+    "description": "Secret Scanning and Exposure Duration: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "github-actions-least-privilege",
+    "title": "Least Privilege for GitHub Actions Deployments",
+    "keyword": "github actions least privilege",
+    "path": "/case-studies/github-actions-least-privilege",
+    "description": "Least Privilege for GitHub Actions Deployments: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "soc-alert-fatigue",
+    "title": "SOC Alert Fatigue: Signal Quality Before Alert Volume",
+    "keyword": "soc alert fatigue",
+    "path": "/case-studies/soc-alert-fatigue",
+    "description": "SOC Alert Fatigue: Signal Quality Before Alert Volume: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "devsecops-security-gates",
+    "title": "When Security Gates Encourage Unsafe Workarounds",
+    "keyword": "devsecops security gates",
+    "path": "/case-studies/devsecops-security-gates",
+    "description": "When Security Gates Encourage Unsafe Workarounds: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "multi-tenant-data-isolation",
+    "title": "Multi-Tenant Data Isolation Beyond Login",
+    "keyword": "multi tenant data isolation",
+    "path": "/case-studies/multi-tenant-data-isolation",
+    "description": "Multi-Tenant Data Isolation Beyond Login: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ai-agent-identity-security",
+    "title": "Identity Boundaries for AI Agents",
+    "keyword": "ai agent identity security",
+    "path": "/case-studies/ai-agent-identity-security",
+    "description": "Identity Boundaries for AI Agents: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "django-ai-application-security",
+    "title": "Threat Modelling a Django AI Application",
+    "keyword": "django ai application security",
+    "path": "/case-studies/django-ai-application-security",
+    "description": "Threat Modelling a Django AI Application: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "incident-response-tabletop-exercise",
+    "title": "Incident Readiness Versus Policy Readiness",
+    "keyword": "incident response tabletop exercise",
+    "path": "/case-studies/incident-response-tabletop-exercise",
+    "description": "Incident Readiness Versus Policy Readiness: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ai-citation-accuracy",
+    "title": "AI Citation Accuracy: Confident Answers, Incorrect Evidence",
+    "keyword": "ai citation accuracy",
+    "path": "/case-studies/ai-citation-accuracy",
+    "description": "AI Citation Accuracy: Confident Answers, Incorrect Evidence: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "rag-vs-long-context",
+    "title": "RAG Versus Long Context: A Controlled Comparison",
+    "keyword": "rag vs long context",
+    "path": "/case-studies/rag-vs-long-context",
+    "description": "RAG Versus Long Context: A Controlled Comparison: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ai-agent-reliability",
+    "title": "Why AI Agents Fail on Long Workflows",
+    "keyword": "ai agent reliability",
+    "path": "/case-studies/ai-agent-reliability",
+    "description": "Why AI Agents Fail on Long Workflows: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "human-in-the-loop-ai-agents",
+    "title": "Human Approval Policies for AI Agents",
+    "keyword": "human in the loop ai agents",
+    "path": "/case-studies/human-in-the-loop-ai-agents",
+    "description": "Human Approval Policies for AI Agents: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ai-agent-memory-evaluation",
+    "title": "AI Agent Memory: Learning or Repeating Mistakes?",
+    "keyword": "ai agent memory evaluation",
+    "path": "/case-studies/ai-agent-memory-evaluation",
+    "description": "AI Agent Memory: Learning or Repeating Mistakes: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "llm-drift-monitoring",
+    "title": "LLM Drift Versus Changing Workloads",
+    "keyword": "llm drift monitoring",
+    "path": "/case-studies/llm-drift-monitoring",
+    "description": "LLM Drift Versus Changing Workloads: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "llm-model-routing",
+    "title": "Small Models, Large Models and Routing Policies",
+    "keyword": "llm model routing",
+    "path": "/case-studies/llm-model-routing",
+    "description": "Small Models, Large Models and Routing Policies: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "structured-output-evaluation",
+    "title": "Structured Output Does Not Prove Correctness",
+    "keyword": "structured output evaluation",
+    "path": "/case-studies/structured-output-evaluation",
+    "description": "Structured Output Does Not Prove Correctness: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "llm-observability-privacy",
+    "title": "LLM Observability Without Sensitive Logging",
+    "keyword": "llm observability privacy",
+    "path": "/case-studies/llm-observability-privacy",
+    "description": "LLM Observability Without Sensitive Logging: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ai-automation-total-cost",
+    "title": "The Total Cost of Successful AI Automation",
+    "keyword": "ai automation total cost",
+    "path": "/case-studies/ai-automation-total-cost",
+    "description": "The Total Cost of Successful AI Automation: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "claude-vs-gpt-requirements-analysis",
+    "title": "Claude Versus GPT for Ambiguous Requirements",
+    "keyword": "claude vs gpt requirements analysis",
+    "path": "/case-studies/claude-vs-gpt-requirements-analysis",
+    "description": "Claude Versus GPT for Ambiguous Requirements: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "claude-vs-gpt-linux-troubleshooting",
+    "title": "Claude Versus GPT for Linux Troubleshooting",
+    "keyword": "claude vs gpt linux troubleshooting",
+    "path": "/case-studies/claude-vs-gpt-linux-troubleshooting",
+    "description": "Claude Versus GPT for Linux Troubleshooting: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "context-engineering-vs-prompt-engineering",
+    "title": "Context Engineering Versus Prompt Rewriting",
+    "keyword": "context engineering vs prompt engineering",
+    "path": "/case-studies/context-engineering-vs-prompt-engineering",
+    "description": "Context Engineering Versus Prompt Rewriting: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ai-deployment-risk-assessment",
+    "title": "Can Claude and GPT Detect Unsafe Deployment Plans?",
+    "keyword": "ai deployment risk assessment",
+    "path": "/case-studies/ai-deployment-risk-assessment",
+    "description": "Can Claude and GPT Detect Unsafe Deployment Plans: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ai-coding-agent-evaluation",
+    "title": "When Coding Agents Pass Tests but Miss Requirements",
+    "keyword": "ai coding agent evaluation",
+    "path": "/case-studies/ai-coding-agent-evaluation",
+    "description": "When Coding Agents Pass Tests but Miss Requirements: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "claude-vs-gpt-research-accuracy",
+    "title": "Claude Versus GPT for Research Source Fidelity",
+    "keyword": "claude vs gpt research accuracy",
+    "path": "/case-studies/claude-vs-gpt-research-accuracy",
+    "description": "Claude Versus GPT for Research Source Fidelity: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "reasoning-model-cost-effectiveness",
+    "title": "Reasoning Budget and Cost-Adjusted Task Success",
+    "keyword": "reasoning model cost effectiveness",
+    "path": "/case-studies/reasoning-model-cost-effectiveness",
+    "description": "Reasoning Budget and Cost-Adjusted Task Success: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "llm-prompt-caching-benchmark",
+    "title": "Prompt Caching Under Changing Context",
+    "keyword": "llm prompt caching benchmark",
+    "path": "/case-studies/llm-prompt-caching-benchmark",
+    "description": "Prompt Caching Under Changing Context: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "single-agent-vs-multi-agent",
+    "title": "Single-Agent Versus Multi-Agent Workflows",
+    "keyword": "single agent vs multi agent",
+    "path": "/case-studies/single-agent-vs-multi-agent",
+    "description": "Single-Agent Versus Multi-Agent Workflows: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ai-agent-tool-design",
+    "title": "Tool Descriptions and Agent Failure Rates",
+    "keyword": "ai agent tool design",
+    "path": "/case-studies/ai-agent-tool-design",
+    "description": "Tool Descriptions and Agent Failure Rates: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ai-software-delivery-productivity",
+    "title": "AI Coding Speed and the Delivery Bottleneck",
+    "keyword": "ai software delivery productivity",
+    "path": "/case-studies/ai-software-delivery-productivity",
+    "description": "AI Coding Speed and the Delivery Bottleneck: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "agile-sprint-forecasting",
+    "title": "Sprint Forecasting Under Uncertain Requirements",
+    "keyword": "agile sprint forecasting",
+    "path": "/case-studies/agile-sprint-forecasting",
+    "description": "Sprint Forecasting Under Uncertain Requirements: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "scope-creep-dependency-management",
+    "title": "The Dependency Cost of a Small Feature",
+    "keyword": "scope creep dependency management",
+    "path": "/case-studies/scope-creep-dependency-management",
+    "description": "The Dependency Cost of a Small Feature: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "project-risk-register-effectiveness",
+    "title": "Why Risk Registers Miss Incidents",
+    "keyword": "project risk register effectiveness",
+    "path": "/case-studies/project-risk-register-effectiveness",
+    "description": "Why Risk Registers Miss Incidents: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ai-build-vs-buy",
+    "title": "AI Build Versus Buy with Maintenance Included",
+    "keyword": "ai build vs buy",
+    "path": "/case-studies/ai-build-vs-buy",
+    "description": "AI Build Versus Buy with Maintenance Included: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ai-prd-evaluation",
+    "title": "Can AI Improve a Product Requirements Document?",
+    "keyword": "ai prd evaluation",
+    "path": "/case-studies/ai-prd-evaluation",
+    "description": "Can AI Improve a Product Requirements Document: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "architecture-decision-records-benefits",
+    "title": "Decision Logs and Institutional Memory",
+    "keyword": "architecture decision records benefits",
+    "path": "/case-studies/architecture-decision-records-benefits",
+    "description": "Decision Logs and Institutional Memory: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "remote-team-delivery-metrics",
+    "title": "Remote Team Delivery Without Surveillance",
+    "keyword": "remote team delivery metrics",
+    "path": "/case-studies/remote-team-delivery-metrics",
+    "description": "Remote Team Delivery Without Surveillance: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ai-pilot-to-production",
+    "title": "Why AI Pilots Fail to Reach Production",
+    "keyword": "ai pilot to production",
+    "path": "/case-studies/ai-pilot-to-production",
+    "description": "Why AI Pilots Fail to Reach Production: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "agile-transformation-case-study",
+    "title": "Agile Transformation Without Assuming the Answer",
+    "keyword": "agile transformation case study",
+    "path": "/case-studies/agile-transformation-case-study",
+    "description": "Agile Transformation Without Assuming the Answer: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "dashboard-decision-bias",
+    "title": "Accurate Dashboards and Misleading Decisions",
+    "keyword": "dashboard decision bias",
+    "path": "/case-studies/dashboard-decision-bias",
+    "description": "Accurate Dashboards and Misleading Decisions: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ai-market-research-accuracy",
+    "title": "AI Market Research and Repeated Claims",
+    "keyword": "ai market research accuracy",
+    "path": "/case-studies/ai-market-research-accuracy",
+    "description": "AI Market Research and Repeated Claims: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ai-brand-voice-consistency",
+    "title": "Brand Voice Consistency in AI-Assisted Content",
+    "keyword": "ai brand voice consistency",
+    "path": "/case-studies/ai-brand-voice-consistency",
+    "description": "Brand Voice Consistency in AI-Assisted Content: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "technical-content-credibility",
+    "title": "Attention Versus Trust in Technical Content",
+    "keyword": "technical content credibility",
+    "path": "/case-studies/technical-content-credibility",
+    "description": "Attention Versus Trust in Technical Content: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "linkedin-content-format-experiment",
+    "title": "LinkedIn Format Versus Message: A Controlled Plan",
+    "keyword": "linkedin content format experiment",
+    "path": "/case-studies/linkedin-content-format-experiment",
+    "description": "LinkedIn Format Versus Message: A Controlled Plan: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "answer-first-content-research",
+    "title": "Answer-First Writing and Research Nuance",
+    "keyword": "answer first content research",
+    "path": "/case-studies/answer-first-content-research",
+    "description": "Answer-First Writing and Research Nuance: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ai-search-citation-accuracy",
+    "title": "AI Search Citations That Misrepresent the Source",
+    "keyword": "ai search citation accuracy",
+    "path": "/case-studies/ai-search-citation-accuracy",
+    "description": "AI Search Citations That Misrepresent the Source: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "search-intent-market-research",
+    "title": "Search Demand Versus Market Demand",
+    "keyword": "search intent market research",
+    "path": "/case-studies/search-intent-market-research",
+    "description": "Search Demand Versus Market Demand: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ai-benchmark-reproducibility",
+    "title": "AI Benchmark Reproducibility",
+    "keyword": "ai benchmark reproducibility",
+    "path": "/case-studies/ai-benchmark-reproducibility",
+    "description": "AI Benchmark Reproducibility: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "negative-results-ai-research",
+    "title": "Publishing Negative Results in AI Research",
+    "keyword": "negative results ai research",
+    "path": "/case-studies/negative-results-ai-research",
+    "description": "Publishing Negative Results in AI Research: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ai-agent-permission-creep",
+    "title": "Permission Creep Across AI Agent Workflows",
+    "keyword": "ai agent permission creep",
+    "path": "/research/ai-agent-permission-creep",
+    "description": "Permission Creep Across AI Agent Workflows: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ai-memory-deletion-research",
+    "title": "The Ghost of a Deleted AI Memory",
+    "keyword": "ai memory deletion research",
+    "path": "/research/ai-memory-deletion-research",
+    "description": "The Ghost of a Deleted AI Memory: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "citation-laundering-ai-research",
+    "title": "Citation Laundering in AI Research",
+    "keyword": "citation laundering ai research",
+    "path": "/research/citation-laundering-ai-research",
+    "description": "Citation Laundering in AI Research: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ai-evaluation-awareness",
+    "title": "Evaluation Cues and AI Agent Behaviour",
+    "keyword": "ai evaluation awareness",
+    "path": "/research/ai-evaluation-awareness",
+    "description": "Evaluation Cues and AI Agent Behaviour: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "multi-agent-false-consensus",
+    "title": "False Consensus in Multi-Agent Research",
+    "keyword": "multi agent false consensus",
+    "path": "/research/multi-agent-false-consensus",
+    "description": "False Consensus in Multi-Agent Research: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "agent-recovery-security-controls",
+    "title": "Security Controls in the Recovery Path",
+    "keyword": "agent recovery security controls",
+    "path": "/research/agent-recovery-security-controls",
+    "description": "Security Controls in the Recovery Path: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ai-requirements-semantic-drift",
+    "title": "Semantic Drift in AI-Generated Requirements",
+    "keyword": "ai requirements semantic drift",
+    "path": "/research/ai-requirements-semantic-drift",
+    "description": "Semantic Drift in AI-Generated Requirements: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "security-compliance-evidence",
+    "title": "Security Compliance Theatre",
+    "keyword": "security compliance evidence",
+    "path": "/research/security-compliance-evidence",
+    "description": "Security Compliance Theatre: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "organisational-ai-memory-integrity",
+    "title": "Organisational Memory Poisoning",
+    "keyword": "organisational ai memory integrity",
+    "path": "/research/organisational-ai-memory-integrity",
+    "description": "Organisational Memory Poisoning: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "social-algorithm-research-methods",
+    "title": "Algorithm Folklore Versus Platform Observations",
+    "keyword": "social algorithm research methods",
+    "path": "/research/social-algorithm-research-methods",
+    "description": "Algorithm Folklore Versus Platform Observations: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "synthetic-market-research-validity",
+    "title": "Synthetic Consensus in Market Research",
+    "keyword": "synthetic market research validity",
+    "path": "/research/synthetic-market-research-validity",
+    "description": "Synthetic Consensus in Market Research: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ai-brand-identity-drift",
+    "title": "Brand Identity Drift Through AI Workflows",
+    "keyword": "ai brand identity drift",
+    "path": "/research/ai-brand-identity-drift",
+    "description": "Brand Identity Drift Through AI Workflows: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ai-agent-observability-gaps",
+    "title": "Observability Blind Spots in AI Actions",
+    "keyword": "ai agent observability gaps",
+    "path": "/research/ai-agent-observability-gaps",
+    "description": "Observability Blind Spots in AI Actions: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "prompt-maintenance-debt",
+    "title": "The Maintenance Debt of Prompts",
+    "keyword": "prompt maintenance debt",
+    "path": "/research/prompt-maintenance-debt",
+    "description": "The Maintenance Debt of Prompts: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  },
+  {
+    "slug": "ai-agent-business-outcome-evaluation",
+    "title": "Task Success Versus Business Failure",
+    "keyword": "ai agent business outcome evaluation",
+    "path": "/research/ai-agent-business-outcome-evaluation",
+    "description": "Task Success Versus Business Failure: a research blueprint covering the method, measures, tradeoffs and limitations.",
+    "status": "Candidate keyword; demand and competition not validated"
+  }
+]

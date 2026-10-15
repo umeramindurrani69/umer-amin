@@ -1,0 +1,1 @@
+import Link from 'next/link';export default function Missing(){return <div className="wrap page"><span className="eyebrow">404 / WRONG DRAWER</span><h1>This note isn’t here.</h1><p className="lead">Try the desk or browse the case studies and research.</p><Link className="button" href="/">Back to the desk ↗</Link></div>}

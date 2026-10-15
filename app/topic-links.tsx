@@ -1,0 +1,1 @@
+import Link from 'next/link';import {topics} from '@/lib/topics';export function TopicLinks(){return <nav className="topic-links" aria-label="Research topics">{topics.map(t=><Link key={t.slug} href={`/topics/${t.slug}`}>{t.name} ↗</Link>)}</nav>}

@@ -1,0 +1,4 @@
+import {readFileSync} from 'node:fs';import {Pool} from 'pg';import nextEnv from '@next/env';
+nextEnv.loadEnvConfig(process.cwd());const pool=new Pool({connectionString:process.env.DATABASE_URL});const articles=JSON.parse(readFileSync('content/library.json','utf8'));let count=0;
+const client=await pool.connect();
+try{await client.query('BEGIN');for(const a of articles){const result=await client.query('INSERT INTO posts(slug,title,summary,content,type,tags,published,published_at,seo_description) VALUES($1,$2,$3,$4,$5,$6,true,NOW(),$7) ON CONFLICT(slug) DO NOTHING',[a.slug,a.title,a.summary,a.content,a.type,a.tags,a.seo_description]);count+=result.rowCount}await client.query('COMMIT');console.log(`${count} research-design drafts added to the local public library. Existing posts preserved.`)}catch(e){await client.query('ROLLBACK');throw e}finally{client.release();await pool.end()}

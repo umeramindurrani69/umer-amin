@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {routeProjectModel} from '../lib/model-router.mjs';
+const config={general:'general',technical:'technical',research:'research'};
+test('routes technical and research contexts with a stable general fallback',()=>{assert.equal(routeProjectModel('Deploy a Django app on Linux',config).model,'technical');assert.equal(routeProjectModel('Market research and evidence analysis',config).model,'research');assert.equal(routeProjectModel('Help plan my new project',config).model,'general');assert.equal(routeProjectModel('Linux',{general:'general'}).model,'general')});

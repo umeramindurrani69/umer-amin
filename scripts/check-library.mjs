@@ -1,0 +1,10 @@
+import {readFileSync,writeFileSync} from 'node:fs';import assert from 'node:assert/strict';
+const articles=JSON.parse(readFileSync('content/library.json','utf8'));const base='http://localhost:3000';const failures=[];const responses=[];
+const sitemap=await (await fetch(base+'/sitemap.xml')).text();const robots=await (await fetch(base+'/robots.txt')).text();
+assert.ok(robots.includes('Sitemap: '+base+'/sitemap.xml'));assert.equal(new Set(articles.map(a=>a.slug)).size,75);
+for(let start=0;start<articles.length;start+=4){await Promise.all(articles.slice(start,start+4).map(async a=>{try{const r=await fetch(base+a.path,{headers:{'User-Agent':'Googlebot'}});const html=await r.text();assert.equal(r.status,200);assert.ok(sitemap.includes('<loc>'+base+a.path+'</loc>'));assert.ok(html.includes('rel="canonical" href="'+base+a.path+'"'));assert.ok(html.includes('name="description"'));assert.ok(html.includes('property="og:title"'));assert.ok(html.includes('name="twitter:card"'));assert.ok(html.includes('Research-design draft'));assert.ok(html.includes('Sources and further reading'));assert.ok(html.includes('BreadcrumbList'));assert.ok(html.includes('/topics/'+a.topic));assert.ok(html.includes('id="section-1"'));responses.push(a.slug)}catch(e){failures.push({slug:a.slug,error:e.message})}}))}
+for(const a of articles){for(const path of a.related)assert.ok(articles.some(other=>other.path===path),'Missing related target: '+path)}
+const og=await fetch(base+'/api/og?slug='+articles[0].slug);assert.equal(og.status,200);assert.ok(og.headers.get('content-type').startsWith('image/'));
+const hidden=await fetch(base+'/api/og?slug=not-a-real-article');assert.equal(hidden.status,404);
+const report={checkedAt:new Date().toISOString(),articles:75,validPages:responses.length,checks:['HTTP 200','sitemap inclusion','canonical URL','description','OpenGraph','Twitter card','research status disclosure','sources','topic hub','table of contents','related targets','share image','unknown slug 404'],failures};writeFileSync('content/verification.json',JSON.stringify(report,null,2));
+console.log(JSON.stringify(report));assert.equal(failures.length,0);

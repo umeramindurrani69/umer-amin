@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {guidedProjectReply} from '../lib/project-guide.mjs';
+test('Linux deployment context maps to operations and does not promise outcomes',()=>{const r=guidedProjectReply([{role:'user',content:'I need Linux deployment help'}]);assert.ok(r.text.includes('Linux, DevOps & cloud'));assert.ok(r.text.includes('not a delivery commitment'));assert.ok(r.links.some(l=>l.href==='/topics/devops-linux'))});
+test('Research and brand inputs connect to relevant evidence',()=>{const r=guidedProjectReply([{role:'user',content:'I need market research for brand positioning'}]);assert.ok(r.links.some(l=>l.href==='/research'));assert.ok(r.links.some(l=>l.href==='/topics/data-market-search'))});

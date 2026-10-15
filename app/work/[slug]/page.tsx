@@ -1,0 +1,1 @@
+import {permanentRedirect,notFound} from 'next/navigation';export default async function Work({params}:{params:Promise<{slug:string}>}){const {slug}=await params;const target:Record<string,string>={aidenhr:'compliance-as-data',aidencampus:'multi-tenant-decision'};if(!target[slug])notFound();permanentRedirect('/case-studies/'+target[slug])}

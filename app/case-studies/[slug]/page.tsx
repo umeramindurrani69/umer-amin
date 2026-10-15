@@ -1,0 +1,3 @@
+import {notFound,redirect} from 'next/navigation';import {postBySlug} from '@/lib/posts';import Article from '../../article';import {postPath} from '@/lib/routes';import {articleMetadata} from '@/lib/seo';export const dynamic='force-dynamic';
+export async function generateMetadata({params}:{params:Promise<{slug:string}>}){return articleMetadata(await postBySlug((await params).slug))}
+export default async function Case({params}:{params:Promise<{slug:string}>}){const p=await postBySlug((await params).slug);if(!p)notFound();if(p.type!=='Case study')redirect(postPath(p));return <Article post={p}/>}

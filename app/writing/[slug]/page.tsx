@@ -1,0 +1,1 @@
+import {permanentRedirect,notFound} from 'next/navigation';import {postBySlug} from '@/lib/posts';import {postPath} from '@/lib/routes';export default async function Writing({params}:{params:Promise<{slug:string}>}){const p=await postBySlug((await params).slug);if(!p)notFound();permanentRedirect(postPath(p))}
