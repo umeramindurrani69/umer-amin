@@ -1,6 +1,6 @@
 'use client';
 import {useState} from 'react';
-const services=[
+export const services=[
  {icon:'⌂',name:'Real-estate agents',detail:'Property enquiries, lead qualification, viewing requests and agent handoffs.'},
  {icon:'◉',name:'Calling agents',detail:'Appointment requests, enquiry triage and follow-up workflows.'},
  {icon:'▤',name:'Office agents',detail:'Document assistance, internal knowledge and task coordination.'},
